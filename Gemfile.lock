@@ -1,0 +1,52 @@
+PATH
+  remote: .
+  specs:
+    ml_kem (0.1.0)
+      sha3 (~> 2.2.2)
+      thor (~> 1.3.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cgi (0.5.0)
+    date (3.4.1)
+    erb (4.0.4)
+      cgi (>= 0.3.3)
+    io-console (0.8.0)
+    irb (1.15.2)
+      pp (>= 0.6.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
+    minitest (5.25.5)
+    pp (0.6.2)
+      prettyprint
+    prettyprint (0.2.0)
+    psych (5.2.6)
+      date
+      stringio
+    rake (13.3.0)
+    rdoc (6.14.1)
+      erb
+      psych (>= 4.0.0)
+    reline (0.6.1)
+      io-console (~> 0.5)
+    sha3 (2.2.2)
+    stringio (3.1.7)
+    thor (1.3.2)
+    yard (0.9.37)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  irb (~> 1.15.2)
+  minitest (~> 5.25.5)
+  ml_kem!
+  rake (~> 13.3.0)
+  sha3 (~> 2.2.2)
+  thor (~> 1.3.2)
+  yard (~> 0.9.37)
+
+BUNDLED WITH
+   2.6.9

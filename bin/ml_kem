@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/ml_kem'   # tu librería con la implementación
+require_relative '../lib/ml_kem/cli'             # carga el CLI
+
+MLKEM::CLI.start(ARGV)
